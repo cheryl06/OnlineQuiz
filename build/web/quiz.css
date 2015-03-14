@@ -1,0 +1,77 @@
+
+body{
+    
+   background-color: #FFF8DC;
+       
+    
+}
+
+
+h2{
+    
+   text-align: center;
+   
+    
+}
+
+.completequestion
+{
+	border-bottom: 1px solid #269abc;
+	margin-bottom:10px;
+	clear:left;
+	height:70px;
+	width:100%;
+}
+
+.Quest, .ans
+{
+	width:100%;
+	float:left;
+}
+
+.Result
+{
+        width: 80%;
+        height:20px;
+	float:left;
+        color: red;
+}
+
+.score{
+        width: 80%;
+        height:20px;
+	float:left;
+        color: red;
+
+}
+
+.intro{
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.wrap{
+    width: 66%;
+    margin: auto;
+    padding: 10px;
+    border:3px solid #269abc;
+}
+.cherylname{
+    
+    text-transform: uppercase;
+    color: #269abc;
+    font-weight: bold;
+}
+.chkanswer{
+    margin-top: 20px;
+}
+
+@media (max-width: 550px) {
+  .chkanswer{
+    margin-top: 30px;
+}
+}
+
+#button{
+    padding-left: 50px;
+}
